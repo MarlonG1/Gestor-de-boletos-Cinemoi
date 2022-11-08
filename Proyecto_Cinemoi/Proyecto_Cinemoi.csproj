@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Boletos y asientos\Boletos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Boletos y asientos\Boletos.Designer.cs">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cartelera\Cartelera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cartelera\Cartelera.Designer.cs">
+      <DependentUpon>Cartelera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informacion de peliculas\InfoPeliculas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informacion de peliculas\InfoPeliculas.Designer.cs">
+      <DependentUpon>InfoPeliculas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmacion y pago\Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmacion y pago\Pago.Designer.cs">
+      <DependentUpon>Pago.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
