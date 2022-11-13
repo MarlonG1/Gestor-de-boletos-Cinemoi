@@ -218,7 +218,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Proyecto_Cinemoi.Properties.Resources.escenario_salida1;
             this.pictureBox3.Location = new System.Drawing.Point(610, 168);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 31);
@@ -228,7 +227,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Proyecto_Cinemoi.Properties.Resources.escenario_entrada;
             this.pictureBox2.Location = new System.Drawing.Point(91, 256);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(110, 137);
@@ -238,7 +236,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Proyecto_Cinemoi.Properties.Resources.escenario_pantalla;
             this.pictureBox1.Location = new System.Drawing.Point(183, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(422, 35);
@@ -259,7 +256,6 @@
             // Ejem3_btn
             // 
             this.Ejem3_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.Ejem3_btn.BackgroundImage = global::Proyecto_Cinemoi.Properties.Resources.btn_ocupado;
             this.Ejem3_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Ejem3_btn.Enabled = false;
             this.Ejem3_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -282,7 +278,6 @@
             // Ejem2_btn
             // 
             this.Ejem2_btn.BackColor = System.Drawing.SystemColors.Control;
-            this.Ejem2_btn.BackgroundImage = global::Proyecto_Cinemoi.Properties.Resources.btn_seleccionado;
             this.Ejem2_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Ejem2_btn.Enabled = false;
             this.Ejem2_btn.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
