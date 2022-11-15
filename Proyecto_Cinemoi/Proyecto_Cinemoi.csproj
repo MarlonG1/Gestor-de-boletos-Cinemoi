@@ -98,17 +98,18 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\escenario_pantalla.png" />
+    <None Include="Resources\btn_ocupado.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btn_seleccionado.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btn_ocupado.jpg" />
+    <None Include="Resources\escenario_entrada.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\escenario_entrada.png" />
+    <None Include="Resources\escenario_pantalla.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\escenario_salida.png" />
