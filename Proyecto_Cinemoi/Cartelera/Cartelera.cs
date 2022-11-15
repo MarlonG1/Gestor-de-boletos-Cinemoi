@@ -16,5 +16,10 @@ namespace Proyecto_Cinemoi
         {
             InitializeComponent();
         }
+
+        private void Cartelera_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
