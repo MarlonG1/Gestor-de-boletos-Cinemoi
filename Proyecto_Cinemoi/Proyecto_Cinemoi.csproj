@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Cartelera\Cartelera.resx">
       <DependentUpon>Cartelera.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Confirmacion y pago\Pago.resx">
+      <DependentUpon>Pago.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
