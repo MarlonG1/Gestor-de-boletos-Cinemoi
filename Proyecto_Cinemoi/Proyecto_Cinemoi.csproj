@@ -78,6 +78,9 @@
     <EmbeddedResource Include="Cartelera\Cartelera.resx">
       <DependentUpon>Cartelera.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Informacion de peliculas\InfoPeliculas.resx">
+      <DependentUpon>InfoPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -133,8 +136,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FondoImg1.png" />
-</ItemGroup>
-<ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\escenario_pantalla1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +151,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\escenario_entrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstrellaLlenita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstrellaVacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHorario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHorario %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
