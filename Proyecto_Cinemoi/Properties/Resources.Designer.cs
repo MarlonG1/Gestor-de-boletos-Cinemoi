@@ -103,6 +103,26 @@ namespace Proyecto_Cinemoi.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ColorHorario__1_ {
+            get {
+                object obj = ResourceManager.GetObject("ColorHorario (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ColorHorario1 {
+            get {
+                object obj = ResourceManager.GetObject("ColorHorario1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ColorRojoCineMark {
             get {
                 object obj = ResourceManager.GetObject("ColorRojoCineMark", resourceCulture);
@@ -123,16 +143,6 @@ namespace Proyecto_Cinemoi.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FondoImg {
-            get {
-                object obj = ResourceManager.GetObject("FondoImg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap escenario_entrada {
             get {
                 object obj = ResourceManager.GetObject("escenario_entrada", resourceCulture);
@@ -143,19 +153,59 @@ namespace Proyecto_Cinemoi.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FondoImg1 {
-            get {
-                object obj = ResourceManager.GetObject("FondoImg1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap escenario_pantalla {
             get {
                 object obj = ResourceManager.GetObject("escenario_pantalla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escenario_salida {
+            get {
+                object obj = ResourceManager.GetObject("escenario_salida", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EstrellaLlenita {
+            get {
+                object obj = ResourceManager.GetObject("EstrellaLlenita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EstrellaVacia {
+            get {
+                object obj = ResourceManager.GetObject("EstrellaVacia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoImg {
+            get {
+                object obj = ResourceManager.GetObject("FondoImg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FondoImg1 {
+            get {
+                object obj = ResourceManager.GetObject("FondoImg1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,16 +236,6 @@ namespace Proyecto_Cinemoi.Properties {
         internal static System.Drawing.Bitmap RojoIMGLargo {
             get {
                 object obj = ResourceManager.GetObject("RojoIMGLargo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap escenario_salida {
-            get {
-                object obj = ResourceManager.GetObject("escenario_salida", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
