@@ -40,5 +40,7 @@ namespace Proyecto_Cinemoi
         {
             FormInfoPelis.Show();
         }
+
+
     }
 }

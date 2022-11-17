@@ -110,5 +110,26 @@
   <ItemGroup>
     <None Include="Cartelera\Assets\Super_mario_encartelera.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ocupado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_BlackPanter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\posterGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorRojoCineMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RojoIMGLargo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoImg1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
