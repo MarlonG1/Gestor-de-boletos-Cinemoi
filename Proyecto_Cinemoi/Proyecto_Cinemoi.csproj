@@ -80,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Informacion de peliculas\InfoPeliculas.resx">
       <DependentUpon>InfoPeliculas.cs</DependentUpon>
+</EmbeddedResource>
+    <EmbeddedResource Include="Confirmacion y pago\Pago.resx">
+      <DependentUpon>Pago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
