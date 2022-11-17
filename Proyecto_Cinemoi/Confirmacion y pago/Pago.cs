@@ -16,5 +16,12 @@ namespace Proyecto_Cinemoi
         {
             InitializeComponent();
         }
+
+        private void b1_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
     }
 }
