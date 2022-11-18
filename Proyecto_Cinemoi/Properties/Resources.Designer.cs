@@ -83,6 +83,16 @@ namespace Proyecto_Cinemoi.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btn_seleccionado {
+            get {
+                object obj = ResourceManager.GetObject("btn_seleccionado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cinemoi_Logo {
             get {
                 object obj = ResourceManager.GetObject("Cinemoi_Logo", resourceCulture);
@@ -119,6 +129,16 @@ namespace Proyecto_Cinemoi.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escenario_entrada {
+            get {
+                object obj = ResourceManager.GetObject("escenario_entrada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
         
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -126,6 +146,16 @@ namespace Proyecto_Cinemoi.Properties {
         internal static System.Drawing.Bitmap FondoImg1 {
             get {
                 object obj = ResourceManager.GetObject("FondoImg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escenario_pantalla {
+            get {
+                object obj = ResourceManager.GetObject("escenario_pantalla", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +186,16 @@ namespace Proyecto_Cinemoi.Properties {
         internal static System.Drawing.Bitmap RojoIMGLargo {
             get {
                 object obj = ResourceManager.GetObject("RojoIMGLargo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap escenario_salida {
+            get {
+                object obj = ResourceManager.GetObject("escenario_salida", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

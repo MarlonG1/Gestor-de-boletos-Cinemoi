@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Boletos y asientos\Boletos.resx">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cartelera\Cartelera.resx">
       <DependentUpon>Cartelera.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +133,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FondoImg1.png" />
+</ItemGroup>
+<ItemGroup>
+    <None Include="Resources\escenario_pantalla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escenario_salida1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_seleccionado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ocupado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escenario_entrada.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
