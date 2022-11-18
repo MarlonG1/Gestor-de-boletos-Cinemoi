@@ -142,9 +142,9 @@
             this.Label_Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Titulo.Location = new System.Drawing.Point(376, 37);
             this.Label_Titulo.Name = "Label_Titulo";
-            this.Label_Titulo.Size = new System.Drawing.Size(126, 24);
+            this.Label_Titulo.Size = new System.Drawing.Size(142, 24);
             this.Label_Titulo.TabIndex = 1;
-            this.Label_Titulo.Text = "Black Panter";
+            this.Label_Titulo.Text = "Titulo Pelicula";
             // 
             // Label_Mincaracteristicas
             // 
@@ -154,7 +154,7 @@
             this.Label_Mincaracteristicas.Name = "Label_Mincaracteristicas";
             this.Label_Mincaracteristicas.Size = new System.Drawing.Size(144, 18);
             this.Label_Mincaracteristicas.TabIndex = 2;
-            this.Label_Mincaracteristicas.Text = "2022 | AA | 2h 55min";
+            this.Label_Mincaracteristicas.Text = "0000 | AA | 0h 00min";
             // 
             // Label_SinopsisTitulo
             // 
@@ -172,11 +172,8 @@
             this.Label_Sinopsis.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_Sinopsis.Location = new System.Drawing.Point(220, 142);
             this.Label_Sinopsis.Name = "Label_Sinopsis";
-            this.Label_Sinopsis.Size = new System.Drawing.Size(457, 54);
+            this.Label_Sinopsis.Size = new System.Drawing.Size(0, 18);
             this.Label_Sinopsis.TabIndex = 7;
-            this.Label_Sinopsis.Text = "La reina Ramonda, Shuri, M Baku, Okoye y las Dora Milaje luchan\r\n por proteger a " +
-    "su nacion de las potencias mundiales que intervienen\r\n tras la muerte del Rey T " +
-    "Challa.";
             this.Label_Sinopsis.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Label_Calificacion
@@ -346,7 +343,7 @@
             // 
             // Calificacion4
             // 
-            this.Calificacion4.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+            this.Calificacion4.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
             this.Calificacion4.Location = new System.Drawing.Point(520, 233);
             this.Calificacion4.Name = "Calificacion4";
             this.Calificacion4.Size = new System.Drawing.Size(27, 26);
@@ -356,7 +353,7 @@
             // 
             // Calificacion3
             // 
-            this.Calificacion3.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+            this.Calificacion3.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
             this.Calificacion3.Location = new System.Drawing.Point(487, 233);
             this.Calificacion3.Name = "Calificacion3";
             this.Calificacion3.Size = new System.Drawing.Size(27, 26);
@@ -366,7 +363,7 @@
             // 
             // Calificacion2
             // 
-            this.Calificacion2.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+            this.Calificacion2.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
             this.Calificacion2.Location = new System.Drawing.Point(454, 233);
             this.Calificacion2.Name = "Calificacion2";
             this.Calificacion2.Size = new System.Drawing.Size(27, 26);
@@ -376,7 +373,7 @@
             // 
             // Calificacion1
             // 
-            this.Calificacion1.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+            this.Calificacion1.Image = global::Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
             this.Calificacion1.Location = new System.Drawing.Point(421, 233);
             this.Calificacion1.Name = "Calificacion1";
             this.Calificacion1.Size = new System.Drawing.Size(27, 26);
@@ -429,7 +426,6 @@
             // 
             // PictureBox_Poster
             // 
-            this.PictureBox_Poster.Image = global::Proyecto_Cinemoi.Properties.Resources.poster_BlackPanter;
             this.PictureBox_Poster.Location = new System.Drawing.Point(28, 56);
             this.PictureBox_Poster.Name = "PictureBox_Poster";
             this.PictureBox_Poster.Size = new System.Drawing.Size(173, 233);
@@ -1102,6 +1098,7 @@
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox25);
+            this.MaximizeBox = false;
             this.Name = "InfoPeliculas";
             this.Text = "InfoPeliculas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
