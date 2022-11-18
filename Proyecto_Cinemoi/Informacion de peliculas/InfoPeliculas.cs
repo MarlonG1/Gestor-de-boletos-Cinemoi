@@ -32,7 +32,7 @@ namespace Proyecto_Cinemoi
                 return;
             }
 
-            blt = new Boletos();
+            blt = new Boletos(seleccion);
             blt.Show();
         }
 
@@ -47,6 +47,9 @@ namespace Proyecto_Cinemoi
             {
                 case "BlackPanter":
                     PictureBox_Poster.Image = Proyecto_Cinemoi.Properties.Resources.poster_BlackPanter;
+                    Calificacion1.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion2.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion3.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
                     Calificacion4.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
                     Calificacion5.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
                     Label_Titulo.Text = "Black Panter";
@@ -55,16 +58,24 @@ namespace Proyecto_Cinemoi
                     break;
                 case "Avengers":
                     PictureBox_Poster.Image = Proyecto_Cinemoi.Properties.Resources.Avenger_endgame;
+                    Calificacion1.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion2.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion3.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
                     Calificacion4.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
                     Calificacion5.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Label_Titulo.Location = new Point(350, 37);
                     Label_Titulo.Text = "Avengers: Endgame";
                     Label_Mincaracteristicas.Text = "2019 | AA | 3h 2min";
                     Label_Sinopsis.Text = "Los Vengadores restantes deben encontrar una manera de recuperar \na sus aliados para un enfrentamiento épico con Thanos, el malvado \nque diezmó el planeta y el universo.";
                     break;
                 case "Mario":
                     PictureBox_Poster.Image = Proyecto_Cinemoi.Properties.Resources.Super_mario_encartelera;
+                    Calificacion1.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion2.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
+                    Calificacion3.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
                     Calificacion4.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaLlenita;
                     Calificacion5.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
+                    Label_Titulo.Location = new Point(360, 37);
                     Label_Titulo.Text = "Mario the movie";
                     Label_Mincaracteristicas.Text = "2022 | A | 2h 15min";
                     Label_Sinopsis.Text = "Mario y Luigi, dos hermanos viajan a un mundo oculto para \nrescatar a la Princesa Peach, capturada por el malvado Rey Bowser.\nLas cosas, sin embargo no serán sencillas.";
