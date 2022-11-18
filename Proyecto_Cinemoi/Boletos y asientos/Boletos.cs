@@ -14,27 +14,42 @@ namespace Proyecto_Cinemoi
     {
         public static int contAsientos, contBoletos, contAdul, contNinos, cont3era;
         public static double subTotal;
-        
+        public static string seleccion;
 
-
-
-        public Boletos()
+        public Boletos(string Seleccion)
         {
             InitializeComponent();
-
-
+            seleccion = Seleccion;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Boletos_Load(object sender, EventArgs e)
         {
+            switch (seleccion)
+            {
+                case "BlackPanter": PictureBox_Entrada.Image = Proyecto_Cinemoi.Properties.Resources.poster_BlackPanter; break;
+                case "Mario": PictureBox_Entrada.Image = Proyecto_Cinemoi.Properties.Resources.Super_mario_encartelera; break;
+                case "Avengers": PictureBox_Entrada.Image = Proyecto_Cinemoi.Properties.Resources.Avenger_endgame; break;
+            }
+        }
 
+        private void Atras_btn_Click(object sender, EventArgs e)
+        {
+            Panel_boletos.Visible = true;
         }
 
         private void Siguiente_btn_Click(object sender, EventArgs e)
         {
-            Panel_boletos.Visible = false;
             contBoletos = contAdul + contNinos + cont3era;
-            Label_TusEntradas.Text = Convert.ToString(contBoletos);
+
+            if (contBoletos != 0)
+            {
+                Panel_boletos.Visible = false;
+                Label_TusEntradas.Text = Convert.ToString(contBoletos);
+            }
+            else
+            {
+                MessageBox.Show("Reserva al menos un boleto", "Ha ocurrido un error");
+            }
         }
 
         private void Siguiente1_btn_Click(object sender, EventArgs e)
@@ -72,6 +87,10 @@ namespace Proyecto_Cinemoi
                 contAsientos++;
                 btn.BackColor = Color.DarkGreen;
                 btn.ForeColor = Color.White;
+            }
+            else if (btn.BackColor == Color.DarkRed)
+            {
+                AsientoOcupado();
             }
             else
             {
@@ -190,6 +209,11 @@ namespace Proyecto_Cinemoi
         private DialogResult MsjCeroBoletos(string tipo)
         {
             return MessageBox.Show($"¡Tienes cero boletos de {tipo} seleccionados!");
+        }
+
+        private DialogResult AsientoOcupado()
+        {
+            return MessageBox.Show("Alguien ya reservo este asiento, intenta seleccionar otro.", "Ha ocurrido un error");
         }
 
         private void A1_btn_Click(object sender, EventArgs e)

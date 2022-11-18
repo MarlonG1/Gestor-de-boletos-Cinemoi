@@ -126,6 +126,7 @@
             this.Asientos_label = new System.Windows.Forms.Label();
             this.Label_TusEntradasTxt = new System.Windows.Forms.Label();
             this.Label_TusEntradas = new System.Windows.Forms.Label();
+            this.Atras_btn = new System.Windows.Forms.Button();
             this.Panel_Asientos.SuspendLayout();
             this.Panel_boletos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox_Entrada)).BeginInit();
@@ -137,7 +138,6 @@
             // Panel_Asientos
             // 
             this.Panel_Asientos.BackColor = System.Drawing.Color.White;
-            this.Panel_Asientos.Controls.Add(this.Label_Entrada);
             this.Panel_Asientos.Controls.Add(this.Panel_boletos);
             this.Panel_Asientos.Controls.Add(this.Siguiente1_btn);
             this.Panel_Asientos.Controls.Add(this.G_label);
@@ -216,6 +216,7 @@
             this.Panel_Asientos.Controls.Add(this.Asientos_label);
             this.Panel_Asientos.Controls.Add(this.Label_TusEntradasTxt);
             this.Panel_Asientos.Controls.Add(this.Label_TusEntradas);
+            this.Panel_Asientos.Controls.Add(this.Atras_btn);
             this.Panel_Asientos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Panel_Asientos.Location = new System.Drawing.Point(0, 0);
             this.Panel_Asientos.Name = "Panel_Asientos";
@@ -225,8 +226,9 @@
             // Label_Entrada
             // 
             this.Label_Entrada.AutoSize = true;
+            this.Label_Entrada.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Label_Entrada.Font = new System.Drawing.Font("Liberation Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Entrada.Location = new System.Drawing.Point(297, 19);
+            this.Label_Entrada.Location = new System.Drawing.Point(302, 19);
             this.Label_Entrada.Name = "Label_Entrada";
             this.Label_Entrada.Size = new System.Drawing.Size(94, 21);
             this.Label_Entrada.TabIndex = 88;
@@ -234,7 +236,9 @@
             // 
             // Panel_boletos
             // 
+            this.Panel_boletos.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Panel_boletos.Controls.Add(this.Label_Subtotal);
+            this.Panel_boletos.Controls.Add(this.Label_Entrada);
             this.Panel_boletos.Controls.Add(this.Label_3eraEdad);
             this.Panel_boletos.Controls.Add(this.Label_Ninos);
             this.Panel_boletos.Controls.Add(this.Label_Adulto);
@@ -429,6 +433,7 @@
             this.PictureBox_Entrada.Location = new System.Drawing.Point(40, 77);
             this.PictureBox_Entrada.Name = "PictureBox_Entrada";
             this.PictureBox_Entrada.Size = new System.Drawing.Size(195, 256);
+            this.PictureBox_Entrada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox_Entrada.TabIndex = 89;
             this.PictureBox_Entrada.TabStop = false;
             // 
@@ -524,24 +529,28 @@
             // 
             // G1_btn
             // 
+            this.G1_btn.BackColor = System.Drawing.Color.DarkRed;
             this.G1_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G1_btn.ForeColor = System.Drawing.Color.White;
             this.G1_btn.Location = new System.Drawing.Point(455, 375);
             this.G1_btn.Name = "G1_btn";
             this.G1_btn.Size = new System.Drawing.Size(24, 23);
             this.G1_btn.TabIndex = 78;
             this.G1_btn.Text = "1";
-            this.G1_btn.UseVisualStyleBackColor = true;
+            this.G1_btn.UseVisualStyleBackColor = false;
             this.G1_btn.Click += new System.EventHandler(this.G1_btn_Click);
             // 
             // G2_btn
             // 
+            this.G2_btn.BackColor = System.Drawing.Color.DarkRed;
             this.G2_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G2_btn.ForeColor = System.Drawing.Color.White;
             this.G2_btn.Location = new System.Drawing.Point(425, 375);
             this.G2_btn.Name = "G2_btn";
             this.G2_btn.Size = new System.Drawing.Size(24, 23);
             this.G2_btn.TabIndex = 77;
             this.G2_btn.Text = "2";
-            this.G2_btn.UseVisualStyleBackColor = true;
+            this.G2_btn.UseVisualStyleBackColor = false;
             this.G2_btn.Click += new System.EventHandler(this.G2_btn_Click);
             // 
             // G3_btn
@@ -579,35 +588,41 @@
             // 
             // G6_btn
             // 
+            this.G6_btn.BackColor = System.Drawing.Color.DarkRed;
             this.G6_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G6_btn.ForeColor = System.Drawing.Color.White;
             this.G6_btn.Location = new System.Drawing.Point(271, 375);
             this.G6_btn.Name = "G6_btn";
             this.G6_btn.Size = new System.Drawing.Size(24, 23);
             this.G6_btn.TabIndex = 73;
             this.G6_btn.Text = "6";
-            this.G6_btn.UseVisualStyleBackColor = true;
+            this.G6_btn.UseVisualStyleBackColor = false;
             this.G6_btn.Click += new System.EventHandler(this.G6_btn_Click);
             // 
             // G7_btn
             // 
+            this.G7_btn.BackColor = System.Drawing.Color.DarkRed;
             this.G7_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G7_btn.ForeColor = System.Drawing.Color.White;
             this.G7_btn.Location = new System.Drawing.Point(241, 375);
             this.G7_btn.Name = "G7_btn";
             this.G7_btn.Size = new System.Drawing.Size(24, 23);
             this.G7_btn.TabIndex = 72;
             this.G7_btn.Text = "7";
-            this.G7_btn.UseVisualStyleBackColor = true;
+            this.G7_btn.UseVisualStyleBackColor = false;
             this.G7_btn.Click += new System.EventHandler(this.G7_btn_Click);
             // 
             // G8_btn
             // 
+            this.G8_btn.BackColor = System.Drawing.Color.DarkRed;
             this.G8_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G8_btn.ForeColor = System.Drawing.Color.White;
             this.G8_btn.Location = new System.Drawing.Point(211, 375);
             this.G8_btn.Name = "G8_btn";
             this.G8_btn.Size = new System.Drawing.Size(24, 23);
             this.G8_btn.TabIndex = 71;
             this.G8_btn.Text = "8";
-            this.G8_btn.UseVisualStyleBackColor = true;
+            this.G8_btn.UseVisualStyleBackColor = false;
             this.G8_btn.Click += new System.EventHandler(this.G8_btn_Click);
             // 
             // G9_btn
@@ -964,24 +979,28 @@
             // 
             // C5_btn
             // 
+            this.C5_btn.BackColor = System.Drawing.Color.DarkRed;
             this.C5_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C5_btn.ForeColor = System.Drawing.Color.White;
             this.C5_btn.Location = new System.Drawing.Point(301, 259);
             this.C5_btn.Name = "C5_btn";
             this.C5_btn.Size = new System.Drawing.Size(24, 23);
             this.C5_btn.TabIndex = 30;
             this.C5_btn.Text = "5";
-            this.C5_btn.UseVisualStyleBackColor = true;
+            this.C5_btn.UseVisualStyleBackColor = false;
             this.C5_btn.Click += new System.EventHandler(this.C5_btn_Click);
             // 
             // C6_btn
             // 
+            this.C6_btn.BackColor = System.Drawing.Color.DarkRed;
             this.C6_btn.Font = new System.Drawing.Font("Liberation Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.C6_btn.ForeColor = System.Drawing.Color.White;
             this.C6_btn.Location = new System.Drawing.Point(271, 259);
             this.C6_btn.Name = "C6_btn";
             this.C6_btn.Size = new System.Drawing.Size(24, 23);
             this.C6_btn.TabIndex = 29;
             this.C6_btn.Text = "6";
-            this.C6_btn.UseVisualStyleBackColor = true;
+            this.C6_btn.UseVisualStyleBackColor = false;
             this.C6_btn.Click += new System.EventHandler(this.C6_btn_Click);
             // 
             // C7_btn
@@ -1271,6 +1290,16 @@
             this.Label_TusEntradas.TabIndex = 90;
             this.Label_TusEntradas.Text = "0";
             // 
+            // Atras_btn
+            // 
+            this.Atras_btn.Location = new System.Drawing.Point(525, 396);
+            this.Atras_btn.Name = "Atras_btn";
+            this.Atras_btn.Size = new System.Drawing.Size(75, 23);
+            this.Atras_btn.TabIndex = 91;
+            this.Atras_btn.Text = "Atras";
+            this.Atras_btn.UseVisualStyleBackColor = true;
+            this.Atras_btn.Click += new System.EventHandler(this.Atras_btn_Click);
+            // 
             // Boletos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1279,6 +1308,7 @@
             this.Controls.Add(this.Panel_Asientos);
             this.Name = "Boletos";
             this.Text = "Boletos";
+            this.Load += new System.EventHandler(this.Boletos_Load);
             this.Panel_Asientos.ResumeLayout(false);
             this.Panel_Asientos.PerformLayout();
             this.Panel_boletos.ResumeLayout(false);
@@ -1391,5 +1421,6 @@
         private System.Windows.Forms.PictureBox PictureBox_Entrada;
         private System.Windows.Forms.Label Label_TusEntradasTxt;
         private System.Windows.Forms.Label Label_TusEntradas;
+        private System.Windows.Forms.Button Atras_btn;
     }
 }
