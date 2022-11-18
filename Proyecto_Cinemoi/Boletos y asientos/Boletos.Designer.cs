@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.Panel_Asientos = new System.Windows.Forms.Panel();
-            this.Label_Entrada = new System.Windows.Forms.Label();
             this.Panel_boletos = new System.Windows.Forms.Panel();
             this.Label_Subtotal = new System.Windows.Forms.Label();
+            this.Label_Entrada = new System.Windows.Forms.Label();
             this.Label_3eraEdad = new System.Windows.Forms.Label();
             this.Label_Ninos = new System.Windows.Forms.Label();
             this.Label_Adulto = new System.Windows.Forms.Label();
@@ -223,17 +223,6 @@
             this.Panel_Asientos.Size = new System.Drawing.Size(693, 431);
             this.Panel_Asientos.TabIndex = 0;
             // 
-            // Label_Entrada
-            // 
-            this.Label_Entrada.AutoSize = true;
-            this.Label_Entrada.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.Label_Entrada.Font = new System.Drawing.Font("Liberation Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Entrada.Location = new System.Drawing.Point(302, 19);
-            this.Label_Entrada.Name = "Label_Entrada";
-            this.Label_Entrada.Size = new System.Drawing.Size(94, 21);
-            this.Label_Entrada.TabIndex = 88;
-            this.Label_Entrada.Text = "Entradas";
-            // 
             // Panel_boletos
             // 
             this.Panel_boletos.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -271,6 +260,17 @@
             this.Label_Subtotal.Size = new System.Drawing.Size(81, 20);
             this.Label_Subtotal.TabIndex = 105;
             this.Label_Subtotal.Text = "Sub total: ";
+            // 
+            // Label_Entrada
+            // 
+            this.Label_Entrada.AutoSize = true;
+            this.Label_Entrada.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Label_Entrada.Font = new System.Drawing.Font("Liberation Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Entrada.Location = new System.Drawing.Point(302, 19);
+            this.Label_Entrada.Name = "Label_Entrada";
+            this.Label_Entrada.Size = new System.Drawing.Size(94, 21);
+            this.Label_Entrada.TabIndex = 88;
+            this.Label_Entrada.Text = "Entradas";
             // 
             // Label_3eraEdad
             // 
@@ -1306,6 +1306,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 431);
             this.Controls.Add(this.Panel_Asientos);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(709, 470);
+            this.MinimumSize = new System.Drawing.Size(709, 470);
             this.Name = "Boletos";
             this.Text = "Boletos";
             this.Load += new System.EventHandler(this.Boletos_Load);
