@@ -1099,6 +1099,8 @@
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox25);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(710, 708);
+            this.MinimumSize = new System.Drawing.Size(710, 708);
             this.Name = "InfoPeliculas";
             this.Text = "InfoPeliculas";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
