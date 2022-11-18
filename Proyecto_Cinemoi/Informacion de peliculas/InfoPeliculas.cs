@@ -38,14 +38,14 @@ namespace Proyecto_Cinemoi
 
         private DialogResult AgotadoBtns()
         {
-            return MessageBox.Show("La función seleccionada se encuentra actualmente no disponible, debido a que todos los boletos estan agotados. \n\nSelecciona otra función.", "Ha ocurrido un error");
+            return MessageBox.Show("La función seleccionada no se encuentra actualmente disponible, debido a que todos los boletos estan agotados. \n\nSelecciona otra función.", "Ha ocurrido un error");
         }
 
         private void Informacion()
         {
             switch (seleccion)
             {
-                case "BlakcPanter":
+                case "BlackPanter":
                     PictureBox_Poster.Image = Proyecto_Cinemoi.Properties.Resources.poster_BlackPanter;
                     Calificacion4.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
                     Calificacion5.Image = Proyecto_Cinemoi.Properties.Resources.EstrellaVacia;
