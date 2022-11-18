@@ -12,35 +12,72 @@ namespace Proyecto_Cinemoi
 {
     public partial class Cartelera : Form
     {
-        Boletos FormBoletos = new Boletos();
-        Pago FormPago = new Pago();
-        InfoPeliculas FormInfoPelis = new InfoPeliculas();
+        public string Seleccion { get; set; }
 
         public Cartelera()
         {
             InitializeComponent();
         }
 
-        private void Cartelera_Load(object sender, EventArgs e)
+        private void AFormInfoPelis()
         {
+            Form frm = this.MdiChildren.FirstOrDefault(x => x is InfoPeliculas);
 
+            if (frm != null)
+            {
+                frm.Show();
+                return;
+            }
+
+            frm = new InfoPeliculas();
+            frm.Show();
         }
 
-        private void ProviBTN_Boletos_Click(object sender, EventArgs e)
+        //Botones de "Saber mas"
+        private void Pelicula1_btn_Click(object sender, EventArgs e)
         {
-            FormBoletos.Show();
+            Seleccion = "Avengers";
+            AFormInfoPelis();
         }
 
-        private void ProviBTN_Pago_Click(object sender, EventArgs e)
+        private void Pelicula2_btn_Click(object sender, EventArgs e)
         {
-            FormPago.Show();
+            Seleccion = "Mario";
+            AFormInfoPelis();
         }
 
-        private void ProviBTN_Infopeli_Click(object sender, EventArgs e)
+        private void Pelicula3_btn_Click(object sender, EventArgs e)
         {
-            FormInfoPelis.Show();
+            Seleccion = "BlackPanter";
+            AFormInfoPelis();
         }
 
+        //Click en los posters
 
+        private void AvengerPicturebox_Click(object sender, EventArgs e)
+        {
+            Seleccion = "Avengers";
+            AFormInfoPelis();
+        }
+
+        private void SuperMariopicturebox_Click(object sender, EventArgs e)
+        {
+            Seleccion = "Mario";
+            AFormInfoPelis();
+        }
+
+        private void BlackPanterPictureBox_Click(object sender, EventArgs e)
+        {
+            Seleccion = "BlackPanter";
+            AFormInfoPelis();
+        }
+
+        //Click en poster grande
+
+        private void PictureBox_Pelicula3_Click(object sender, EventArgs e)
+        {
+            Seleccion = "BlackPanter";
+            AFormInfoPelis();
+        }
     }
 }
