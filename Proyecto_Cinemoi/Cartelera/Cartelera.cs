@@ -12,7 +12,7 @@ namespace Proyecto_Cinemoi
 {
     public partial class Cartelera : Form
     {
-        public string Seleccion { get; set; }
+        private static string seleccion;
 
         public Cartelera()
         {
@@ -29,26 +29,26 @@ namespace Proyecto_Cinemoi
                 return;
             }
 
-            frm = new InfoPeliculas();
+            frm = new InfoPeliculas(seleccion);
             frm.Show();
         }
 
         //Botones de "Saber mas"
         private void Pelicula1_btn_Click(object sender, EventArgs e)
         {
-            Seleccion = "Avengers";
+            seleccion = "Avengers";
             AFormInfoPelis();
         }
 
         private void Pelicula2_btn_Click(object sender, EventArgs e)
         {
-            Seleccion = "Mario";
+            seleccion = "Mario";
             AFormInfoPelis();
         }
 
         private void Pelicula3_btn_Click(object sender, EventArgs e)
         {
-            Seleccion = "BlackPanter";
+            seleccion = "BlackPanter";
             AFormInfoPelis();
         }
 
@@ -56,19 +56,19 @@ namespace Proyecto_Cinemoi
 
         private void AvengerPicturebox_Click(object sender, EventArgs e)
         {
-            Seleccion = "Avengers";
+            seleccion = "Avengers";
             AFormInfoPelis();
         }
 
         private void SuperMariopicturebox_Click(object sender, EventArgs e)
         {
-            Seleccion = "Mario";
+            seleccion = "Mario";
             AFormInfoPelis();
         }
 
         private void BlackPanterPictureBox_Click(object sender, EventArgs e)
         {
-            Seleccion = "BlackPanter";
+            seleccion = "BlackPanter";
             AFormInfoPelis();
         }
 
@@ -76,7 +76,7 @@ namespace Proyecto_Cinemoi
 
         private void PictureBox_Pelicula3_Click(object sender, EventArgs e)
         {
-            Seleccion = "BlackPanter";
+            seleccion = "BlackPanter";
             AFormInfoPelis();
         }
     }
