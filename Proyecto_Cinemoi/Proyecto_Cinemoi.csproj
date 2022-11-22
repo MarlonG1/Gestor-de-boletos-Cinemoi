@@ -72,8 +72,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Boletos y asientos\Boletos.resx">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cartelera\Cartelera.resx">
       <DependentUpon>Cartelera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informacion de peliculas\InfoPeliculas.resx">
+      <DependentUpon>InfoPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmacion y pago\Pago.resx">
+      <DependentUpon>Pago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,6 +118,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Cartelera\Assets\Super_mario_encartelera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ocupado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_BlackPanter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\posterGrande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorRojoCineMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RojoIMGLargo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoImg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escenario_pantalla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escenario_salida1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_seleccionado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ocupado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escenario_entrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstrellaLlenita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstrellaVacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHorario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHorario %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
