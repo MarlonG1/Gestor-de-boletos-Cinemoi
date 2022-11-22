@@ -12,16 +12,22 @@ namespace Proyecto_Cinemoi
 {
     public partial class Pago : Form
     {
-        public Pago()
+        public Pago(double total)
         {
             InitializeComponent();
+            Label_Total.Text = $"Total: {Convert.ToString(total += total * 0.13)}";
         }
 
-        private void b1_Click(object sender, EventArgs e)
+        private void Pagar_Click(object sender, EventArgs e)
         {
-
-
-
+            if (Mascara1.MaskCompleted && Mascara2.MaskCompleted && Mascara3.MaskCompleted)
+            {
+                MessageBox.Show("Has Pagado con EXITO");
+            }
+            else
+            {
+                MessageBox.Show("ERROR Una de las casillas esta vacia");
+            }
         }
     }
 }
