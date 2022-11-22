@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cartelera));
             this.panel1 = new System.Windows.Forms.Panel();
             this.PictureBox_Pelicula3 = new System.Windows.Forms.PictureBox();
             this.cineMoiLabel = new System.Windows.Forms.Label();
@@ -293,6 +294,7 @@
             this.Controls.Add(this.cineMoiPicrutebox);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(632, 582);

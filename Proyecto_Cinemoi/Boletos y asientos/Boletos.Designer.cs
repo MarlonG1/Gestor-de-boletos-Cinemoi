@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Boletos));
             this.Panel_Asientos = new System.Windows.Forms.Panel();
             this.Panel_boletos = new System.Windows.Forms.Panel();
             this.Label_Subtotal = new System.Windows.Forms.Label();
@@ -1306,6 +1307,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(693, 431);
             this.Controls.Add(this.Panel_Asientos);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(709, 470);
             this.MinimumSize = new System.Drawing.Size(709, 470);

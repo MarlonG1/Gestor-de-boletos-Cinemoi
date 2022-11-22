@@ -38,7 +38,8 @@ namespace Proyecto_Cinemoi
 
         private DialogResult AgotadoBtns()
         {
-            return MessageBox.Show("La función seleccionada no se encuentra actualmente disponible, debido a que todos los boletos estan agotados. \n\nSelecciona otra función.", "Ha ocurrido un error");
+            return MessageBox.Show("La función seleccionada no se encuentra actualmente disponible, debido a que todos los boletos estan agotados." +
+                "\n\nSelecciona otra función.", "Ha ocurrido un error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void Informacion()
